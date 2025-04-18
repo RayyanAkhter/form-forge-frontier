@@ -1,6 +1,6 @@
 
 import { create } from 'zustand';
-import { FormComponent, FormComponentType, FormData } from '@/types/form';
+import { FormComponent, FormComponentType, FormData, ThemeSettings } from '@/types/form';
 import { nanoid } from 'nanoid';
 import { createComponentTemplate } from './componentTemplates';
 import { createDefaultForm } from './formUtils';
